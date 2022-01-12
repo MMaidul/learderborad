@@ -1,0 +1,184 @@
+/* --------------------------
+utlities start style start 
+-----------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #eeee;
+}
+.container {
+  width: 850px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+.section__title {
+  color: rgb(22, 71, 231);
+}
+/* -------------------------------
+header-section style start 
+--------------------------------*/
+.header-section {
+  background-color: rgb(22, 71, 231);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.header-section .container {
+  background-color: rgb(22, 71, 231);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+}
+.header__logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header__logo img {
+  width: 40px;
+}
+.header__logo span {
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.header__menu {
+}
+.header__menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header__menu ul li {
+  margin-right: 20px;
+}
+.header__menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* -----------------------------------
+player & blog section style start
+--------------------------------------*/
+.player-section {
+  padding-top: 10px;
+}
+.player-section .section__title {
+  padding-bottom: 15px;
+}
+.player {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+.player__single {
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.player__single img {
+  width: 70px;
+}
+.player__single h4 {
+  margin-left: 20px;
+}
+
+.blog-section {
+  margin-top: 30px;
+}
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.blog__single {
+  width: calc(100% / 2);
+  display: flex;
+  margin-bottom: 30px;
+}
+.blog__single-img img {
+  width: 180px;
+  object-fit: cover;
+}
+
+.blog__single-content {
+  margin-left: 15px;
+}
+.blog__single-content h4 {
+  font-size: 20px;
+}
+.blog__single-content span {
+  color: gray;
+}
+.blog__single-content span a {
+  text-decoration: none;
+}
+
+/* -----------------------------------
+ course-section style start 
+--------------------------------------*/
+.course-section {
+  margin-top: 20px;
+}
+.course-section h2 {
+  padding-top: 10px;
+}
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.course__single {
+  width: calc(95% / 3);
+  padding-bottom: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(211, 211, 211, 0.418);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.course__single img {
+  width: 230px;
+}
+
+.course__single-content h4 {
+  font-size: 19px;
+  padding: 10px 0;
+}
+.course__single-content p {
+  color: tomato;
+}
+.course__single-meta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+.course__single-meta ul {
+  list-style: none;
+  display: flex;
+}
+.course__single-meta ul li {
+  color: orangered;
+}
+.course__single-meta h5 {
+  color: lightgray;
+}
+.course__single-meta h5 span {
+  background-color: rgba(255, 68, 0, 0.247);
+  display: inline-block;
+  color: orangered;
+  padding: 5px;
+  border-radius: 20px;
+}
